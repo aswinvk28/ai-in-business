@@ -1,6 +1,6 @@
 ## AI in Business
 
-![./Images/ai-in-business.png](./Images/ai-in-business.png)
+![https://github.com/nscalo/ai-in-business/raw/main/Images/ai-in-business.png](https://github.com/nscalo/ai-in-business/raw/main/Images/ai-in-business.png)
 
 ## Notes
 
