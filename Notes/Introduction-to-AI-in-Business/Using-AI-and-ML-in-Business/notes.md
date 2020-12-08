@@ -79,5 +79,5 @@ Reason: The use cases deal with historical data and is predominantly static whic
 
 [https://mindmajix.com/bpm-tools](https://mindmajix.com/bpm-tools)
 
-Reason: A BPM is associated with data intensive processes. Management of outcome rather than tasks is the key. Data management and maintennace of data are key aspects that enable success. 
+Reason: A BPM is associated with data intensive processes. Management of outcome rather than tasks is the key. Data management and maintenance of data are key aspects that enable success. 
 
