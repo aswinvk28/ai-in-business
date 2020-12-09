@@ -81,3 +81,128 @@ Reason: The use cases deal with historical data and is predominantly static whic
 
 Reason: A BPM is associated with data intensive processes. Management of outcome rather than tasks is the key. Data management and maintenance of data are key aspects that enable success. 
 
+## Measuring Success
+
+- Using metrics
+
+- Metrics must be Easily measurable 
+
+- Directly correlated to business performance
+
+- Predictive of future business outcomes
+
+- Isolated to factors controlled by the group
+
+- Comparable to competitors' metrics
+
+## Metrics Quiz
+
+### Measuring NPS
+
+NPS is a score that is the difference between promoters and detractors, the passives are not taken into consoderation
+
+[https://www.qualtrics.com/uk/experience-management/customer/measure-nps/](https://www.qualtrics.com/uk/experience-management/customer/measure-nps/)
+
+[https://www.qualtrics.com/uk/experience-management/customer/net-promoter-score](https://www.qualtrics.com/uk/experience-management/customer/net-promoter-score)
+
+Using Search by ML to introduce Metrics
+
+## Do you need AI
+
+- An Impactful Business Problem
+
+- Quantify the business value
+
+- Does it have large volume of associated data?
+
+- How much data do you have?
+
+- Does the dataset match the problem?
+
+- Is the dataset complete?
+
+- Is the data annotated correctly for the ML Team?
+
+## Need for AI example
+
+Production systems actively learn from humans
+
+It is best practice to incorporate real humans into training pipelines
+
+## Things to remember
+
+- Start with business value
+
+- Use production data and academic data, matche reality and real world deployment
+
+- Learning is key
+
+## Key roles
+
+Product Owner
+
+- Business case owner
+- Bridges frpom stakeholders to team
+- Owns maximisation of product value
+- Ensures that the team builds the right product
+
+Designer
+
+- Owns human-computer interaction design
+- Visual design, information architecture, interaction design
+- Useability / accessibility
+
+Software Engineer
+
+- Builds product infrastructure
+- Problem solver in software deveopment
+- Frontend/backend
+
+Data Engineer
+
+- Builds data infrastructure
+- gets model into production
+- Ensures entire pipeline can support rapid development
+- Model management
+
+Data Scientist
+
+- Builds & selects models
+- Guides the team on the state of the art technology
+- Structures the problem to achieve the business metrics
+- Uses data to answer business questions
+
+Quality Assurance
+
+- Owns quality assurance of the product
+- Ensures product release is ready
+- Scalability testing
+- Functional testing
+
+Development and Operations (DevOps)
+
+- Ensures infrastructure reliability
+- manages scalability and performance
+- Mitigates security risks
+- Ensures development and ML Team can work efficiently
+
+## Project Management
+
+- Business Problem
+- Data
+- Model Building
+- Deploy & Measure
+- Active Learning & Tuning
+
+## Executing an ML Project
+
+Scrum
+
+- Scrum master
+- Product Owner
+- Team
+- Product backlog / Sprint Planning Meeting / Sprint Backlog
+- Finished Work
+- Sprint review
+- Sprint retrospective
+
