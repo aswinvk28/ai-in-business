@@ -40,7 +40,7 @@ How model performs depends heavily on data you use
 ## Figure 8 Platform
 
 - Uploading data
-- Designing an annottaion job
+- Designing an annotation job
 - Creating test questions
 - Monitoring results
 
