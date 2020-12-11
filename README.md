@@ -17,3 +17,8 @@
 
         [https://github.com/nscalo/ai-in-business/blob/main/Notes/Creating-A-Dataset/Data-Fit-And-Annotation/notes.md](https://github.com/nscalo/ai-in-business/blob/main/Notes/Creating-A-Dataset/Data-Fit-And-Annotation/notes.md)
         
+- Build A Model
+
+    - Training And Evaluating A Model
+
+        [https://github.com/nscalo/ai-in-business/blob/main/Notes/Build-A-Model/Training-And-Evaluating-A-Model/notes.md](https://github.com/nscalo/ai-in-business/blob/main/Notes/Build-A-Model/Training-And-Evaluating-A-Model/notes.md)
