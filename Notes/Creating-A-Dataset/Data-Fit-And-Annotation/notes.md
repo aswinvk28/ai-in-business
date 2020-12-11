@@ -13,7 +13,7 @@
 - determining use cases (is dataset complete)
 - Annotation of dataset
 
-How model performs depends heavily on data you use
+**How model performs depends heavily on data you use**
 
 - Data Size
 - Pattern Detection
@@ -43,7 +43,6 @@ How model performs depends heavily on data you use
 - Designing an annotation job
 - Creating test questions
 - Monitoring results
-
 - Answer Yes for every parking sign question and image in the Figure 8 Platform
 
 ## Test Questions
