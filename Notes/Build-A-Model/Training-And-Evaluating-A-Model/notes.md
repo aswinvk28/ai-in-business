@@ -3,15 +3,11 @@
 - Overview of Modeling
 - Training Data
 - Model Evaluation
-- Transfer Learning and Automated ML
-
-Models act as framework
-- Single Neural network consists of series of computational layers
-- Specialised nodes perform various computations
-
-- Uncertainty is Good
+- Transfer Learning and Automated ML Models act as framework
+- Single Neural network (NN) consists of series of computational layers
+- Specialised nodes within a NN perform various computations
+- Uncertainty is Good for neural Networks to learn
 - Backpropagation & Updating the Weights of a Network
-
 - Perceptron Math
 - Activation Functions: Sigmoids and ReLUs
     - Decision Boundaries
@@ -27,9 +23,9 @@ Models act as framework
 - Train it with all types of data
 - Use a diverse set of data to build a robust model
 - Depending on the intended usage of data, understanding all model scenarios is a must
-- Reduce the noise of the data as much as possible
+- While training, Reduce the noise of the data as much as possible
 - Common Issues with Training Data
-    - Unbalanced or boased data
+    - Unbalanced or biased data
     - Training Data Distribution
     - Collect more training data for the classes that are lacking, or reduce the amount in large classes
     - Data does not reflect real world data
@@ -52,7 +48,7 @@ Models act as framework
 - We need sensible metrics while performing the model
 - We need how it will perform when deployed in production
 - Out of labeled data: 80% training data and 20% testing model: 10% validation data, 10% test data
-- Correct and incorrect predictions
+- We need to include Correct and incorrect predictions
 - How model performs in individual class and also across classes
 - F1 score of above 0.7 or 0.8 are considered to be decent
 - Confusion Matrix
@@ -70,27 +66,26 @@ Models act as framework
 - Making ML more acceptable to larger audience
 - Use case driven and using classes of data or labeled data
 - AutoML allows to build relatively robust model without much Machine Learning Experience
-- Produce ML Model with AutoML to get real hand-on experience with the model
-
+- Produce ML Model with AutoML to get real hands-on experience with the model
 - We can leverage existing trained models to solve new problems
 - Pretrained from online sources
 - Automated ML makes it easy to create models
 - Complex models require custom development
 
-## Fine Tuning
+## Fine Tuning of Model
 
 - Each model has pros and cons
-- Idea behind is leverage previously learned models
-- Much quicker and cheaper to build models by Transfer Learning
-- Much less data required to adjust and tune the model
+- Idea behind is to leverage previously learned models
+- It is much quicker and cheaper to build models by Transfer Learning
+- Much less data is required to adjust and tune the model while performing model under Transfer Learning
 
 ## Automated ML
 
 - Neural Architecture Search
-- Fitting various components together and handle accuracy
+- Fitting various components of the Neural network together and handle accuracy
 - Service to automatically create models from data
 - Allows for quick prototyping 
-- benefit of enterprise support
+- Benefit of enterprise support
 - Much less hassle and complexity
 - Automatically determine best architecture for data types
 - Consists of architecture blocks that can be configured together for optimization
@@ -98,19 +93,27 @@ Models act as framework
 
 ## Automated ML vs Custom Modeling
 
+### Automated ML 
+
 - Easy to get started
 - Robust enterprise support
 - Cheap for quick development
 
 -- Limited use cases
+
 -- Difficult to extend
+
 -- Data is accessible to provider
+
+### Custom Modeling
 
 - Complete customizability
 - Unlimited use cases
 - Full control over parameter tuning
 
 -- Expensive to get started
+
 -- Requires ML Expertise
+
 -- Limited means of external support
 
