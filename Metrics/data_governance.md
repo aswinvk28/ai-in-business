@@ -6,7 +6,7 @@
 
 ### 1. Data Governance
 
-![https://github.com/nscalo/ai-in-business/blob/main/Metrics/images/01.DGovernance.PNG](https://github.com/nscalo/ai-in-business/blob/main/Metrics/images/01.DGovernance.PNG)
+![https://github.com/nscalo/ai-in-business/raw/main/Metrics/images/01.DGovernance.PNG](https://github.com/nscalo/ai-in-business/raw/main/Metrics/images/01.DGovernance.PNG)
 
 - **The Data Value** on **Annotation** depends on: Sensitivity and Specificity
 - **The Data Management** Cost on **Annotation** depends on: Steward Representation / Coverage
