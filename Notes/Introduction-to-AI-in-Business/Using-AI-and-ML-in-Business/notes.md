@@ -15,14 +15,16 @@
 - Data
     - Right data to solve the business problem
     - Availability
-    - Privenance
+    - Provenance
     - Security
     - Coverage
     - Augmentation
     - Annotation
+    - Refreshing
+    - Pipeline development
 - Model Building
     - Feature Extraction
-    - Hypetrparameters
+    - Hyperparameters
     - Tuning
     - Selection
     - Benchmarking
@@ -31,7 +33,7 @@
     - AB Testing
     - versioning
     - Business Process Integration
-- Active Learning & Tuning
+- Active Learning & Tuning (In Production)
     - Bias mitigation
     - Ground Truth & Success Monitoring
     - Version Control
