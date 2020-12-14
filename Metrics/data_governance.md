@@ -4,12 +4,18 @@
 
 **Such Design Cards include ML Pipelines, Training Loops, AI Approach**
 
+Let's discuss about Metrics involved in the Design Card: Data Governance.
+
 ### 1. Data Governance
 
 ![https://github.com/nscalo/ai-in-business/raw/main/Metrics/images/01.DGovernance.PNG](https://github.com/nscalo/ai-in-business/raw/main/Metrics/images/01.DGovernance.PNG)
 
+_We take the AI Approach into perspective where we address the Business Problem first instrad of the data. Let's dive into the data metrics for Data Governance._
+
 DATA METRICS
 ------------
+
+Let's perform a mapping between Governance Metrics and the Data Elements in the AI Approach. We take a pragmatic approach to finalise the mapping. The metrics from AI and ML domain are considered as well as those in the Data Management standards domain are also taken into consideration.
 
 - **The Data Value** on **Annotation** depends on: Sensitivity and Specificity
 - **The Data Management Cost** on **Annotation** depends on: Steward Representation / Coverage
@@ -20,21 +26,54 @@ DATA METRICS
 - **The Data Value** on **Provenance** depends on: Data Bias
 - **The Data Management Cost** on **Provenance** depends on: Data Formats and Transformation
 
-1. While annotating data, the mistakes and unidentified objects in images, let's say are taken into consideration with True Positive Rate and False Positive Rate. This is termed as Specificity and Sensitivity. 
+__Sensitivity and Specificity__
+
+1. While annotating data, the mistakes and unidentified objects in images, let's say are taken into consideration with True Positive Rate and True Negative Rate. This is termed as Sensitivity and Specificity. 
+
+- True Positives are those that are correctly identified by the algorithm and the ground truth is positive.
+- True Negative are those that are correctly identified by the algorithm as negative and the ground truth is negative. 
+- False Positives are those that are wrongly identified as positive, so the ground truth is negative. 
+- False negatives are those that are wrongly identified as negative, so the ground truth is positive. 
+
+- Sensitivity is also termed as Recall.
+- Specificity is also termed as TNR (True Negative Rate) or Selectivity.
+
+__Steward Representation / Coverage__
 
 2. Annotation will cover the entire dataset and is distributed among people and data models that manually arrive at the answers. This incurs a cost to the management aspect as the tools that produce that amount of productivity is managed for automation as well as the headcount for annotating tasks and job management is an additional cost incurred to businesses. 
 
-3. In a decision pipeline, where you've got to choose between Automation and Manual Tasks and also between Accuracy and Mistakes produced, the number of decisions made depends on the Level of Automation applied to the Annotation job.
+- Coverage of the dataset is a key characteristic to determine the degree of influence of the dataset with model evaluation and annotation tools. Coverage is a stewardship responsibility too and it lie either at the automated level or the defined level. 
+- The greater the coverage of the dataset for our job the better is the model.
 
-4. While annotating, the net promoter score is used to achieve the objectives of producing valid answers to the given questions. For example, if the data annotation task has about 3 questions and 1 is neutral, the decider on how the question has been perceived on a sentiment analysis problem is a valid objective. 
+__Net Promoter Score__
 
-5. In the topic of Availability, the tools used to obtain the dataset from given format to required format for annotation is a matter of Productivity and hence KPIs come into the problem solving context. 
+3. While annotating, the net promoter score is used to achieve the objectives of producing valid answers to the given questions. For example, if the data annotation task has about 3 questions and 1 is neutral, the decider on how the question has been perceived on a sentiment analysis problem is a valid objective. 
+
+- NPS is the difference between positive and negative answers
+
+__Level of Automation__
+
+4. In a decision pipeline, where you've got to choose between Automation and Manual Tasks and also between Accuracy and Mistakes produced, the number of decisions made depends on the Level of Automation applied to the Annotation job.
+
+__KPIs for Productivity__
+
+5. In the topic of Availability, the tools used to obtain the dataset from given format to required format for annotation is a concern of Productivity and hence KPIs come into the problem solving context. 
+
+- Availability of the assist tools for the job such as annotation tools, image recognition tools, spreadsheets depends on how productive the job is for each person. For maximising the productivity the problem must be addressed from the ground base on how the data has been collected and persisted. 
+
+__Customer Satisfaction Score__
 
 6. How secure the job related to applying data is dependent on the satisfaction and dissatisfaction score provided by the customer or the client. So CSS (Customer Satisfaction Score) is a key metric that determines Security.
 
+__Data Bias__
+
 7. Data Bias is a key factor of historical provenance and origins of the data because that is how the trained model will produce its output. 
 
+__Data Formats and Transformation__
+
 8. The Cost on Provenance is dependent on the formats of data and data transformation pipelines that are used. 
+
+_Next we see the Model Building Metrics from the AI Approach_
 
 MODEL BUILDING METRICS
 ----------------------
@@ -51,25 +90,47 @@ MODEL BUILDING METRICS
 - **The Data Management Cost** on **Benchmarking** depends on: Execution Environment
 - **The # of Decisions Made** on **Feature Extraction** depends on: Dataset Size
 
+__Classification Uncertainty and Consistency__
+
 1. The data value statistics inferred from feature extracton process is relevant to how the data labels are classified. Classification uncertainty explains why each data item is classified in that data label or class. Consistency is required for such feature extraction process in order to make the process repeatable. 
+
+__Completeness__
 
 2. For example, using grid search cross validation algorithm, you can actually find the hyperparameters of a machine learning algorithm. In finding so, the dataset is aimed towards completeness which is in reality matched with predefined attributes that relate to the dataset. Those pre-defined attributes define the dataset to explain it in a particular way. 
 
-3. In Tuning the model, Accuracy is really the key. 
+__Accuracy__
 
-4. Loss Functions and Data currency of the model or the currency of the information it handles are key factors that make the model gets selected from one or two different models. 
+3. In Tuning the model, the value obtained denotes that the Accuracy is really the key. 
+
+__Loss Functions and Model / Information Currency__
+
+4. Loss Functions and Data currency of the model or the currency of the information it handles are key factors that help in model selection from one or two different models. 
+
+__Validity__
 
 5. Validation dataset is the key factor that is considered for benchmarking. Benchmarking depends on Validation loss and it is taken into consideration for model selection.
 
+__Complexity and Invariancy__
+
 6. Complexity and Invariancy are cost parameters that enable feature extraction. Cost and complexity drive value whereas invariancy of data transformation helps the model achieve its objectives. 
+
+__Error Functions__
 
 7. Error Functions determine the hyperparameters - Training error must be optimal and bias-variance tradeoff must be balanced. Hyperparameters are chosen in order to navigate the tradeoff between bias and variance. 
 
-8. Additional Test Data in a test dataset helps in tuning the model for performance. 
+__Test Dataset__
+
+8. Additional Test Data in a test dataset helps in tuning the model for performance. This implies there needs to be a measurable dataset and model while tuning the model. 
+
+__Model size, Performance and Serialization of Model__
 
 9. When the model is serialized the performance increases and when the size of the model is optimal, the cost of the model as well reduces. 
 
+__Execution Environment__
+
 10. The execution environment is well dependent on the benchmarking of the model. If the model is run across multi-devices they are to be modified accordingly. The deployment of the model such as to the cloud or the edge varies. 
+
+__Dataset Size__
 
 11. With regards to the dataset size used for training, the inference makes a number of decisions to achieve the objective. Such varied dataset sizes are sourced from bias on data attributes such as labels. So decisions made in the ML or AI pipeline will change accordingly. 
 

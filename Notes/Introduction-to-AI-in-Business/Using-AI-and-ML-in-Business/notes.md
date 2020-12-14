@@ -48,7 +48,7 @@
 
 - What problem are we trying to solve?
 - How does AI add value?
-- What data do we nned?
+- What data do we need?
 
 #### Best Bytes
 
