@@ -17,7 +17,7 @@ DATA METRICS
 
 Let's perform a mapping between Governance Metrics and the Data Elements in the AI Approach. We take a pragmatic approach to finalise the mapping. The metrics from AI and ML domain are considered as well as those in the Data Management standards domain are also taken into consideration.
 
-- **The Data Value** on **Annotation** depends on: Sensitivity and Specificity
+- **The Data Value** on **Annotation** depends on: Sensitivity and Specificity (Confusion Matrix)
 - **The Data Management Cost** on **Annotation** depends on: Steward Representation / Coverage
 - **The Achievement of Objectives** on **Annotation** depends on: Net Promoter Score
 - **The # Of Decisions Made** on **Annotation** depends on: Level of Automation
@@ -37,6 +37,7 @@ __Sensitivity and Specificity__
 
 - Sensitivity is also termed as Recall.
 - Specificity is also termed as TNR (True Negative Rate) or Selectivity.
+- Confusion Matrix consists of TP, FP, TN and FN
 
 __Steward Representation / Coverage__
 
