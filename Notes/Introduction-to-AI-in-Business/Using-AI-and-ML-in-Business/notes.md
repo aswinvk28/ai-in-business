@@ -86,15 +86,10 @@ Reason: A BPM is associated with data intensive processes. Management of outcome
 ## Measuring Success
 
 - Using metrics
-
 - Metrics must be Easily measurable 
-
 - Directly correlated to business performance
-
 - Predictive of future business outcomes
-
 - Isolated to factors controlled by the group
-
 - Comparable to competitors' metrics
 
 ## Metrics Quiz
@@ -112,17 +107,11 @@ Using Search by ML to introduce Metrics
 ## Do you need AI
 
 - An Impactful Business Problem
-
 - Quantify the business value
-
 - Does it have large volume of associated data?
-
 - How much data do you have?
-
 - Does the dataset match the problem?
-
 - Is the dataset complete?
-
 - Is the data annotated correctly for the ML Team?
 
 ## Need for AI example
@@ -134,9 +123,7 @@ It is best practice to incorporate real humans into training pipelines
 ## Things to remember
 
 - Start with business value
-
-- Use production data and academic data, matche reality and real world deployment
-
+- Use production data and academic data, match reality and real world deployment
 - Learning is key
 
 ## Key roles
