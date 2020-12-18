@@ -28,3 +28,10 @@
 - Data Governance
 
     [https://github.com/nscalo/ai-in-business/blob/main/Metrics/data_governance.md](https://github.com/nscalo/ai-in-business/blob/main/Metrics/data_governance.md)
+
+## Courses
+
+- Production ML Systems
+
+    [https://github.com/nscalo/ai-in-business/blob/main/Courses/Production-ML-Systems/courses.md](https://github.com/nscalo/ai-in-business/blob/main/Courses/Production-ML-Systems/courses.md)
+
