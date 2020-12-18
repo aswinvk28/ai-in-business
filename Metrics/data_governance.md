@@ -26,6 +26,16 @@ Let's perform a mapping between Governance Metrics and the Data Elements in the 
 - **The Data Value** on **Provenance** depends on: Data Bias
 - **The Data Management Cost** on **Provenance** depends on: Data Formats and Transformation
 
+|   Governance Metrics      |   Data Elements  |            Metric               |
+|---------------------------|------------------|---------------------------------|
+|   Data Value              |   Annotation     |   Specificity and Sensitivity   |
+| Data Value                | Availability     | KPIs / Productivity             |
+| Data Value                | Provenance       | Data Bias                       |
+| Data Value                | Security         | Customer Satisfaction           |
+| Data Management Cost      | Provenance       | Data Formats                    |
+| Data Management Cost      | Coverage         | Steward Representation          |
+| Achievement of Objectives | Annotation       | Net Promoter Score              |
+
 __Sensitivity and Specificity (Confusion Matrix)__
 
 1. While annotating data, the mistakes and unidentified objects in images, let's say are taken into consideration with True Positive Rate and True Negative Rate. This is termed as Sensitivity and Specificity. 
