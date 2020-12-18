@@ -68,7 +68,10 @@ Test Questions are created essentially Ground truth Data. This is to understand 
 
 - How can you plan for long term success
 - Reflect to more relevant definitions
-- If you data does not change, ou can use a static model
+- If you data does not change, you can use a static model
 - Ever-evolving data, dynamic data is used
 - Frequently changing data, you may need to change annotation job and update your data to include more relevant definitions
 
+## Static Model
+
+- A static model would send feedback to the detailing of the Appen Job which enable the Product Manager to the Design for Quality Questions posted in the Job. 
