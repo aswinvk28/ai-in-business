@@ -6,6 +6,10 @@
 
 - Introduction to AI In Business
 
+    - Intro to AI and ML
+
+        [http://github.com/nscalo/ai-in-business/blob/main/Notes/Introduction-to-AI-in-Business/Intro-to-AI-and-ML/notes.md](http://github.com/nscalo/ai-in-business/blob/main/Notes/Introduction-to-AI-in-Business/Intro-to-AI-and-ML/notes.md)
+
     - Using AI and ML in Business
 
         [https://github.com/nscalo/ai-in-business/blob/main/Notes/Introduction-to-AI-in-Business/Using-AI-and-ML-in-Business/notes.md](https://github.com/nscalo/ai-in-business/blob/main/Notes/Introduction-to-AI-in-Business/Using-AI-and-ML-in-Business/notes.md)
@@ -13,7 +17,6 @@
 - Creating A Dataset
 
     - Data Fit And Annotation
-
 
         [https://github.com/nscalo/ai-in-business/blob/main/Notes/Creating-A-Dataset/Data-Fit-And-Annotation/notes.md](https://github.com/nscalo/ai-in-business/blob/main/Notes/Creating-A-Dataset/Data-Fit-And-Annotation/notes.md)
         
