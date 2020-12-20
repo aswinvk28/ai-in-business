@@ -29,12 +29,13 @@ Let's perform a mapping between Governance Metrics and the Data Elements in the 
 |   Governance Metrics      |   Data Elements  |            Metric               |
 |---------------------------|------------------|---------------------------------|
 |   Data Value              |   Annotation     |   Specificity and Sensitivity   |
-| Data Value                | Availability     | KPIs / Productivity             |
-| Data Value                | Provenance       | Data Bias                       |
-| Data Value                | Security         | Customer Satisfaction           |
-| Data Management Cost      | Provenance       | Data Formats                    |
 | Data Management Cost      | Coverage         | Steward Representation          |
 | Achievement of Objectives | Annotation       | Net Promoter Score              |
+| The # Of Decisions Made   | Annotation       | Level of Automation             |
+| Data Value                | Availability     | KPIs / Productivity             |
+| Data Value                | Security         | Customer Satisfaction           |
+| Data Value                | Provenance       | Data Bias                       |
+| Data Management Cost      | Provenance       | Data Formats and Transformation |
 
 __Sensitivity and Specificity (Confusion Matrix)__
 
