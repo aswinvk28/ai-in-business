@@ -39,7 +39,7 @@ _@Google Definition:_
 
 _Original Video_
 
-- Shows object detection of vehciles on roads
+- Shows object detection of vehicles on roads
 
 ![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/far_entrance.0.gif](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/far_entrance.0.gif)
 
