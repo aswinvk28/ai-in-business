@@ -15,6 +15,8 @@
 ![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Static-Dynamic-Inference.PNG](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Static-Dynamic-Inference.PNG)
 [https://developers.google.com/machine-learning/crash-course/static-vs-dynamic-inference/](https://developers.google.com/machine-learning/crash-course/static-vs-dynamic-inference/)
 
+![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Static-Dynamic-Online-Inference.PNG](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Static-Dynamic-Online-Inference.PNG)
+
 ### Data Dependencies
 
 ![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Input-Data.PNG](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Input-Data.PNG)
