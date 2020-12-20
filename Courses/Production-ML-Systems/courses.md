@@ -35,7 +35,7 @@
 
 ![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/output_annotated_330.gif](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/output_annotated_330.gif)
 
-**The above video is demonstrating optical flow detection within the bounding box images as you can see. The detected points are filtered over a threshold which emits data to be sent through an analysis pipeline. The Analysed data is possibly used to determine the statistical parameters of the video.**
+**The above video is demonstrating optical flow detection within the bounding box images as you can see. The detected points are filtered over a threshold which emits data to be sent through an analysis pipeline. The Analysed data is used to determine the statistical parameters of the video.**
 
 **So why does Automation Bias exist? Automation Bias exists when a piece of software with single original model can be used to determine the statistical properties which helps in optimization of characteristics of the video.**
 
