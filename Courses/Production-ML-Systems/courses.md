@@ -37,7 +37,7 @@
 
 **The above video is demonstrating optical flow detection within the bounding box images as you can see. The detected points are filtered over a threshold which emits data to be sent through an analysis pipeline. The Analysed data is used to determine the statistical parameters of the video.**
 
-**So why does Automation Bias exist? Automation Bias exists when a piece of software with single original model can be used to determine the statistical properties which helps in optimization of characteristics of the video.**
+**So why does Automation Bias exist? Automation Bias exists when a piece of software with single original model can be used to determine the statistical properties which helps in optimization of the video characteristics.**
 
 - **Selection Bias**
     - Coverage Bias
