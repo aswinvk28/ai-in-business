@@ -103,7 +103,7 @@ def draw_boxes(out_write_npy, zone, frame, result, args, width, height):
 
 __Code to show participation bias of bounding boxes:__
 
-![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Bounding-Boxes-With-Participation-Bias.PNG](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Bounding-Boxes-With-Participation-Bias.PNG)
+![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Bounding-Boxes-With-Participation-Bias.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Bounding-Boxes-With-Participation-Bias.png)
 
 ```python
 
@@ -222,7 +222,7 @@ def test_custom_layer(self):
 
 Redraw the bounding boxes with the nodes matched with the bounding boxes
 
-![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Bounding-Boxes-No-Participation-Bias.PNG](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Bounding-Boxes-No-Participation-Bias.PNG)
+![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Bounding-Boxes-No-Participation-Bias.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Bounding-Boxes-No-Participation-Bias.png)
 
 ![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/output_video_annotated_330_tagged.gif](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/output_video_annotated_330_tagged.gif)
 
