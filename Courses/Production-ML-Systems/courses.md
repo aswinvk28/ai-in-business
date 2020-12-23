@@ -59,15 +59,15 @@ _Case Study 1: (Capture of Frequency of Events using threshold of Pixel values)_
 
 [Vehicle Detection using Optical Flow Estimation and Bounding Boxes](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/output_annotated_330.gif)
 
-![https://github/com/nscalo/ai-in-business/raw/main/Courses/Unnamed%20board.png](https://github/com/nscalo/ai-in-business/raw/main/Courses/Unnamed%20board.png)
+![https://github/com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Unnamed%20board.png](https://github/com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Unnamed%20board.png)
 
 **In the above two example videos, the number of points inside each bounding box is evaluated over a set of frames. This gives us the above graph explained under Reporting Bias and marked on Frame 1633. **
 
-![https://github.com/nscalo/ai-in-business/raw/main/Courses/Bounding-Boxes-No-Participation-Bias.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/Bounding-Boxes-No-Participation-Bias.png)
+![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Bounding-Boxes-No-Participation-Bias.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Bounding-Boxes-No-Participation-Bias.png)
 
 _Case Study 2: (Capture of Frequency of Events using PSQs)_
 
-![https://github.com/nscalo/ai-in-business/raw/main/Courses/PSQ.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/PSQ.png)
+![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/PSQ.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/PSQ.png)
 
 **Automation Bias**
 
@@ -150,7 +150,7 @@ def draw_boxes(out_write_npy, zone, frame, result, args, width, height):
 
 Code to show participation bias of bounding boxes:
 
-![https://github.com/nscalo/ai-in-business/raw/main/Courses/Unnamed%20board_1.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/Unnamed%20board_1.png)
+![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Unnamed%20board_1.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Unnamed%20board_1.png)
 
 ```python
 
@@ -269,13 +269,13 @@ Solution 2: Eliminate the participation bias by connecting the nodes to the boun
 
 Redraw the bounding boxes with the nodes matched with the bounding boxes
 
-![https://github.com/nscalo/ai-in-business/raw/main/Courses/Bounding-Boxes-With-Participation-Bias.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/Bounding-Boxes-With-Participation-Bias.png)
+![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Bounding-Boxes-With-Participation-Bias.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Bounding-Boxes-With-Participation-Bias.png)
 
 **Sampling bias**: Proper randomization is not used during data collection.
 
 In this experiment shown above, we consider samples of data from bounding boxes and not the entire data which makes us apply statistical tests to the data
 
-![https://github.com/nscalo/ai-in-business/raw/main/Courses/Vehicle-Viz-Table.PNG](https://github.com/nscalo/ai-in-business/raw/main/Courses/Vehicle-Viz-Table.PNG)
+![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Vehicle-Viz-Table.PNG](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Vehicle-Viz-Table.PNG)
 
 **Group Attribution Bias**
 
@@ -285,11 +285,11 @@ Group attribution bias is a tendency to generalize what is true of individuals t
 
 **In-group bias**: A preference for members of a group to which you also belong, or for characteristics that you also share.
 
-![https://github.com/nscalo/ai-in-business/raw/main/Courses/Group-Attribution-Bias-1.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/Group-Attribution-Bias-1.png)
+![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Group-Attribution-Bias-1.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/Group-Attribution-Bias-1.png)
 
 Explained using Static DEA problem
 
-![https://github.com/nscalo/ai-in-business/raw/main/Courses/DEA-problem.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/DEA-problem.png)
+![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/DEA-problem.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/DEA-problem.png)
 
 ```python
 
@@ -341,7 +341,7 @@ Implicit bias occurs when assumptions are made based on one's own mental models 
 
 **experimenter's bias**: model builder may actually keep training a model until it produces a result that aligns with their original hypothesis
 
-![https://github.com/nscalo/ai-in-business/raw/main/Courses/IMPLICIT-BIAS.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/IMPLICIT-BIAS.png)
+![https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/IMPLICIT-BIAS.png](https://github.com/nscalo/ai-in-business/raw/main/Courses/Production-ML-Systems/IMPLICIT-BIAS.png)
 
 
 #### Fairness: Identifying Bias
