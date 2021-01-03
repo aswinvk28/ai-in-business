@@ -102,6 +102,20 @@ MODEL BUILDING METRICS
 - **The Data Management Cost** on **Benchmarking** depends on: Execution Environment
 - **The # of Decisions Made** on **Feature Extraction** depends on: Dataset Size
 
+|   Governance Metrics      |   Data Elements          |            Metric               |
+|---------------------------|--------------------------|---------------------------------|
+|   Data Value              |   Feature Extraction     |  Classification Uncertainty and Consistency   |
+| The Data Value      | Hyperparameters         | Completeness          |
+| The Data Value | Tuning       | Accuracy              |
+| The Data Value   | Model Selection       | Loss Functions and Model / Information Currency             |
+| The Data Value                | Benchmarking     | Validity             |
+| The Data Management Cost             | Feature Extraction     | Complexity and Invariancy           |
+| The Data Management Cost         | Hyperparameters       | Error Functions         |
+| The Data Management Cost      | Tuning       | Test Dataset |
+| The Data Management Cost      | Model Selection    | Model size, Performance and Serialization of Model |
+| The Data Management Cost      | Benchmarking    | Execution Environment |
+| The # of Decisions Made      | Feature Extraction    | Dataset Size |
+
 __Classification Uncertainty and Consistency__
 
 1. The data value statistics inferred from feature extracton process is relevant to how the data labels are classified. Classification uncertainty explains why each data item is classified in that data label or class. Consistency is required for such feature extraction process in order to make the process repeatable. 
